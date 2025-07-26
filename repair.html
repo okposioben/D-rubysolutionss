@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Repair Service - D-Ruby Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Request Repair</h1>
+    <form action="https://formspree.io/f/your-form-id" method="POST" enctype="multipart/form-data">
+        <label>Name: <input type="text" name="name" required></label>
+        <label>Phone/Email: <input type="text" name="contact" required></label>
+        <label>Address: <input type="text" name="address"></label>
+        <label>Appliance Model: <input type="text" name="model"></label>
+        <label>Urgency:
+            <select name="urgency">
+                <option>Low</option>
+                <option>Medium</option>
+                <option>High</option>
+                <option>Emergency</option>
+            </select>
+        </label>
+        <label>Upload Image/Video:
+            <input type="file" name="media" accept=".jpg,.png,.mp4" max-size="5000000">
+        </label>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

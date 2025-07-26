@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+    color: #333;
+}
+header {
+    background-color: #2E86AB;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.cta-buttons {
+    margin-top: 10px;
+}
+.cta {
+    background-color: #EE6C4D;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+label {
+    margin: 10px 0;
+}
+button {
+    background-color: #2E86AB;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+@media (max-width: 600px) {
+    .cta {
+        display: block;
+        margin: 10px auto;
+    }
+}
